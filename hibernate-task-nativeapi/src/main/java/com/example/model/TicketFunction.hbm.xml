@@ -1,0 +1,12 @@
+
+<hibernate-mapping>
+    <class name="com.example.model.Ticket" table="tickets">
+        <id name="id" column="id">
+            <generator class="identity"/>
+        </id>
+        <property name="movieName" column="movie_name"/>
+        <property name="seatNumber" column="seat_number"/>
+       
+        <property name="buyerName" column ="buyer_name"/>
+    </class>
+</hibernate-mapping>
